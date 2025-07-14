@@ -44,5 +44,5 @@ fig, ax = plt.subplots(figsize=(10, 10))
 taxi_zones.plot(ax=ax, facecolor="lightgray", edgecolor="black", linewidth=0.5)
 
 ax.set_title("NYC Taxi Zones")
-ax.set_axis_off()   # hides axes ticks/labels
+ax.set_axis_off()
 plt.show()
